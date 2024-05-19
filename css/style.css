@@ -279,12 +279,20 @@ button > a {
   background-color: rgba(255, 255, 255, 0.12);
   max-height: 595px;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   margin-bottom: 119px;
+}
+.blog__body::-webkit-scrollbar {
+  display: none;
 }
 
  .blog__body::-webkit-scrollbar {
   width: 0px;
+}
+
+.blog__list-wrapper{
+  overflow: hidden;
 }
 
 .blog__body::-webkit-scrollbar-thumb {
