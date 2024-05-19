@@ -278,7 +278,7 @@ button > a {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.12);
   max-height: 595px;
-  overflow-y: auto;
+  overflow: hidden;
   position: relative;
   margin-bottom: 119px;
 }
