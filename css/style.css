@@ -584,6 +584,7 @@ button > a {
 @media(min-width: 768px) {
   .header__logo {
     width: 287px;
+    display: block;
   }
   .burger-open{
     display: none;
